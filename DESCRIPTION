@@ -9,10 +9,6 @@ Description: Technical performance metrics for differential gene expression expe
 URL: http://www.nist.gov/mml/bbd/erccdashboard.cfm,
         https://github.com/usnistgov/erccdashboard,
         http://tinyurl.com/erccsrm
-<<<<<<< HEAD
-=======
-BugReports: https://github.com/usnistgov/erccdashboard/issues
->>>>>>> master
 Depends: R (>= 3.1), ggplot2, gridExtra
 Imports: edgeR, gplots, grid, gtools, limma, locfit, MASS, plyr,
         QuasiSeq, qvalue, reshape2, ROCR, scales, stringr
@@ -20,11 +16,7 @@ License: GPL (>=2)
 Collate: runDashboard.R initDat.R dashboardFile.R plotAdjust.R
         loadERCCInfo.R loadExpMeas.R getDesignMat.R normalizeDat.R
         prepERCCDat.R est_r_m.R dynRangePlot.R geneExprTest.R
-<<<<<<< HEAD
-        testDECount.R testDEArray.R erccROC.R estLODR.R multiplot.R
-=======
         testDECount.R testDEArray.R erccROC.R estLODR.R
->>>>>>> master
         printLODRres.R saveERCCPlots.R maSignal.R annotLODR.R
 biocViews: GeneExpression, Transcription, AlternativeSplicing,
         DifferentialExpression, DifferentialSplicing, Genetics,
